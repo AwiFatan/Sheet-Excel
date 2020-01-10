@@ -29,7 +29,14 @@ mirip LOOK UP hanya saja hasil tertinggi yang diambil
 Mengambil data yang paling bawah
 '=index(B:B,max(row(B:B)*(B:B<>"")))
 
+MENGAMBIL DATA DENGAN DUA ATAU LEBIH SYARAT
+=index(A:E,match(1,(A:A=H3)*(B:B=G3),0))
+=index(YANGAKANDIAMBIL,match(1,(SYARAT1)*(SYARAT2),0))
 
+
+MENGAMBIL DATA TERBAWAH DENGAN DUA SYARAT DAN  BULAN TERAKHIR PADA BULAN TERSEBUT
+=ArrayFormula(LOOKUP(2,1/((B2:B="Wiy")*(MONTH(A2:A)=MONTH(A69))),B2:B))
+=ArrayFormula(LOOKUP(2,1/((B2:B="Wiy")*(MONTH(A2:A)=2)),B2:B))
 
 EXCEL
 mengambil data terakhir (Panggilan berulang)
