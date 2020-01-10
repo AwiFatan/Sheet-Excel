@@ -1,5 +1,7 @@
 =IMPORTRANGE("https://docs.google.com/spreadsheets/d/1Sy7x9puftG1Z5AEopphW5yAAbPiKb4PCCPczBOD1TD4/edit","Sheet1!A4:C")
 =IMPORTRANGE("https://docs.google.com/spreadsheets/d/YourSheet/edit","Sheet1!A4:C")
+=IMPORTRANGE("YourSheet","Sheet1!A4:C")
+
 
 Query untu 1 Syarat 
 Ambil data berdasarkan bulan
